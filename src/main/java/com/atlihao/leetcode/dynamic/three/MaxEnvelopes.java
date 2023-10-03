@@ -34,7 +34,7 @@ public class MaxEnvelopes {
         for (int i = 0; i < num; i++) {
             height[i] = envelopes[i][1];
         }
-//        return LengthOfLIS.lengthOfLIS(height);
+        return LengthOfLIS.lengthOfLIS(height);
 //        return LengthOfLIS.lengthOfLIS2(height);
     }
 }
